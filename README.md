@@ -1,28 +1,30 @@
 # Triangles
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/triangles`. To experiment with that code, run `bin/console` for an interactive prompt.
+Determines the type of a triangle.
 
-TODO: Delete this and the text above, and describe your gem
+It takes the lengths of the triangle's three sides as input, and return whether the triangle is equilateral, isosceles or scalene.
 
 ## Installation
 
-Add this line to your application's Gemfile:
 
-```ruby
-gem 'triangles'
-```
+Dependencies:
 
-And then execute:
+  * ruby 2.x
+  * bundler
 
-    $ bundle
+Install dependent libraries:
 
-Or install it yourself as:
+    $ bundle install
 
-    $ gem install triangles
 
 ## Usage
 
-TODO: Write usage instructions here
+
+    $ bundle exec triangles 1 2 2
+
+## Running tests
+
+    $ bundle exec rake spec
 
 ## Development
 
@@ -32,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/triangles.
+Bug reports and pull requests are welcome on GitHub at https://github.com/lucasmundim/triangles.
 
 
 ## License

@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Lucas Mundim"]
   spec.email         = ["lucas.mundim@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Determines the type of a triangle.}
+  spec.description   = %q{It takes the lengths of the triangle's three sides as input, and return whether the triangle is equilateral, isosceles or scalene.}
+  spec.homepage      = "https://github.com/lucasmundim/triangles"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
