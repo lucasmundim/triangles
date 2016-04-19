@@ -1,0 +1,5 @@
+triangles:
+  build: .
+  entrypoint:
+    - bundle
+    - exec

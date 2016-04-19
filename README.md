@@ -6,6 +6,7 @@ It takes the lengths of the triangle's three sides as input, and return whether 
 
 ## Installation
 
+### Local
 
 Dependencies:
 
@@ -16,15 +17,32 @@ Install dependent libraries:
 
     $ bundle install
 
+### Docker
+
+Dependencies:
+
+  * docker
+  * docker-compose
 
 ## Usage
 
+### Local
 
     $ bundle exec triangles 1 2 2
 
+### Docker
+
+    $ docker-compose run --rm triangles triangles 1 2 3
+
 ## Running tests
 
+### Local
+
     $ bundle exec rake spec
+
+### Docker
+
+    $ docker-compose run --rm triangles rake spec
 
 ## Development
 
@@ -40,4 +58,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/lucasm
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
